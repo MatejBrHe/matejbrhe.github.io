@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lang="hr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Grafikon</title>
+	</head>
+	<body>
+		<header>
+		<h1>Graf vremena iz tablice</h1>
+		</header>
+		<!-- <header>
+       <nav aria-labelledby="primarna-navigacija">
+        <h2 id="primarna-navigacija">Primarna navigacija</h2>
+
+        </nav>
+        </header>
+    -->
+		<nav class="nav-menu"> <!-- dodati obilježja za ARIA-->
+			<img src="slike/hamburger-menu.jpg" width="100" alt="" class="nav-icon">
+			<ul class="nav-content"> <!-- dodati da je navigacija lijevo poravnata i da je skrivena
+				LV1: bez upotrebe javascripta -->
+				<li><a href="index.html">Pocetna</a></li>
+				<li><a href="#">Grafikon</a></li>
+				<li><a href="slike.html">Slike</a></li>
+			</ul>
+		</nav>
+		<main>
+		<figure class="graph-container">
+			<div class="donut-chart"></div>
+			<figcaption class="legend">
+				<span>Clear 24%</span>
+				<span>Partly cloudy	 46%</span>
+				<span>Overcast 30%</span>
+			</figcaption>
+		</figure>
+		</main>
+	</body>
